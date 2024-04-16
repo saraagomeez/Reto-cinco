@@ -3,6 +3,7 @@
 1. Para la primera parte de este reto lo que hice fue crear un paquete con un único modulo dentro de este, para luego hacer un llamado a cada función desde un archivo "main.py".
 
 ´´´
+
 import math
 class Point:
     def __init__(self, x, y):
@@ -317,4 +318,5 @@ print("Square area: ", square.compute_area())
 print("Square perimeter: ", square.compute_perimeter())
 print("Square inner angles: ", square.compute_inner_angles())
 print("\n")
+
 ´´´
